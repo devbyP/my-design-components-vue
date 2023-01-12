@@ -1,0 +1,59 @@
+/* link style */
+a {
+    text-decoration: none;
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: var(--color-success);
+}
+
+/************* text size and style ***********/
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* headline for no h1, h2 page */
+.headline {
+    font-size: 1.5rem;
+}
+
+/* use as title for sub section in a page and article */
+.title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* use along with headline or heading */
+.sub-heading {
+    font-size: 1.1rem;
+}
+/* border text */
+.b {
+    font-weight: 600;
+}
+/* caption is a small text use under images for short description */
+.caption {
+    font-size: 0.675rem;
+    font-weight: 700;
+}
+
+.error-message {
+    color: var(--color-danger);
+}

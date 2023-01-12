@@ -1,0 +1,82 @@
+button {
+    border: none;
+    background-color: var(--color-secondary);
+    color: var(--color-text-inverted);
+    padding: 6px 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* button colors */
+button.primary {
+    background-color: var(--color-primary);
+}
+button.danger {
+    background-color: var(--color-danger);
+}
+button.success {
+    background-color: var(--color-success);
+}
+
+/* button useful style */
+button.disabled {
+    pointer-events: none;
+    background-color: var(--color-secondary);
+    opacity: 0.4;
+}
+
+/* outline style button */
+button.outline {
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--color-secondary);
+    color: var(--color-secondary);
+}
+
+button.outline.primary {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+
+button.outline.danger {
+    border-color: var(--color-danger);
+    color: var(--color-danger);
+}
+
+button.outline.success {
+    border-color: var(--color-success);
+    color: var(--color-success);
+}
+
+/* button size */
+button.small {
+    padding: 2px 6px;
+}
+button.large {
+    padding: 10px 15px;
+}
+
+/* button events */
+button:hover {
+    opacity: 0.7;
+}
+
+button:active {
+    opacity: 1;
+}
+
+button.outline:hover {
+    background-color: var(--color-secondary-clear);
+}
+
+button.outline.primary:hover {
+    background-color: var(--color-primary-clear);
+}
+button.outline.danger:hover {
+    background-color: var(--color-danger-clear);
+}
+button.outline.success:hover {
+    background-color: var(--color-success-clear);
+}
